@@ -1,0 +1,16 @@
+GET http://localhost:8080/api/settlement/13232s3
+Accept: application/json
+
+###
+POST http://localhost:8080/api/settlement/create
+Content-Type: application/json
+
+{
+  "tradeId": "13232s3",
+  "ssiCode": "DBS_OCBC_1",
+  "currency": "USD",
+  "amount": "12334.34",
+  "valueDate": "12022021"
+}
+
+###
